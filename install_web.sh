@@ -1,4 +1,3 @@
-{
-  "fileUris": ["https://raw.githubusercontent.com/alashro/sampleweb/master/install_web.sh"],
-  "commandToExecute": "./install_web.sh"
-}
+apt-get update -y && apt-get upgrade -y
+
+apt-get install -y nginx
