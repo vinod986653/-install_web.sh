@@ -1,3 +1,3 @@
-apt-get update -y && apt-get upgrade -y
+import-module servermanager
+add-windowsfeature web-server -includeallsubfeature
 
-apt-get install -y nginx
